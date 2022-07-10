@@ -44,6 +44,7 @@ else:
     from six.moves import tkinter_tkfiledialog as tkFileDialog
     from six.moves import tkinter_messagebox as tkMessageBox
 import time
+import re
 import subprocess
 import os
 import errno
